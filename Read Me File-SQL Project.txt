@@ -1,0 +1,25 @@
+Read Me File - Data Analysis Project 1- Data Exploration
+
+The idea of this project is to explore, analyze and provide insight and visualization of Covid Data. The source from this project is https://ourworldindata.org/covid-deaths
+
+The Database Management Service (DMS) used was Microsoft SQL SERVER MANAGEMENT STUDIO
+
+The first step was to split the data into 2 different Excel files and upload them to the DMS; One was focused on Covid Deaths and the other was focused on Covid Deaths. 
+
+1. The first step was to compare total cases vs total death to have an understanding of how many people were dying and were contracting Covid, hence the death percentage.
+
+2. The second step was to compare total cases vs total population to have an understanding of how many people got COVID. In this step is possible to filter by location. 
+
+3. Next step was to show countries with the highest death per population
+
+4. This step was to show the continent with the highest death per population
+
+5. The fifth step was to group death percentage by date which is the SUM of new_death divided by the SUM new_cases multiply by 100
+
+6. The sixth step was to Join the Covid Vaccination table with Covid Death to show the total population vs total vaccination meaning how many people in the world have been vaccinated. To get the rolling people vaccinated, that is the addition of daily vaccination we use Window function.
+
+7.  The seventh step was to compare the total population versus the new table "rolling people vaccinated". To achieve this we use a CTE. 
+
+8. Alternatively we can create a temporary table instead of a CTE with the same result
+
+9. Lastly we create the view to store data for the visualization  
