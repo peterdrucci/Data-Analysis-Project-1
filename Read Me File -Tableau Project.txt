@@ -1,0 +1,18 @@
+Read Me File -Tableau Project
+
+This project is part of the first project. Data were analyzed and now is time to create some visualization showing the results. For the visualization please visit:
+
+public.tableau.com/app/profile/pedro.cabrera1794/viz/PortfolioProjectCovid_16835954969070/Dashboard1?publish=yes 
+
+
+1.  First we analyzed the global total cases, total deaths, and death percentage.
+
+2.  Second we select the location and Total death count. We filter some locations because they are not included in the above queries and want to stay consistent this produces the total death by continent.
+
+
+3. Third we analyze the percentage of population infected by country in a map visualization. 
+
+4. Lastly we analyzed the percentage of population infected by Month/Year. Similar query to the previous one, however, this one is also grouped by date. We can filter the visualization by locations of interest 
+
+
+
